@@ -348,7 +348,6 @@ textarea,
 .feed-content .recentcontainer .commentpost img {
     margin: 10px;
     height: 40px;
-    border-radius: 50%;
 }
 
 .feed-content .recentcontainer .commentpost .input-group-btn {
@@ -777,6 +776,17 @@ textarea,
 
 .tc {
     text-align: center;
+}
+
+.sfProfileTopbar {
+    width: 100%;
+    height: 245px;
+    clear: both;
+    float: left;
+    background: #1da1f2;
+}
+
+.img-circle {
 }
 
 .img-circle {

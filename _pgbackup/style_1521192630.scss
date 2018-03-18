@@ -247,9 +247,6 @@ textarea,
     border-radius: 50%;
 }
 
-.commentpost img {
-}
-
 .feed-content .recentcontainer .newpostheader a .name,
 .feed-content .recentcontainer .newpostfooter a .name {
     position: relative;
@@ -785,17 +782,6 @@ textarea,
     text-align: center;
 }
 
-.sfProfileTopbar {
-    width: 100%;
-    height: 245px;
-    clear: both;
-    float: left;
-    background: #1da1f2;
-}
-
-.img-circle {
-}
-
 .img-circle {
     border-radius: 50%;
 }
@@ -825,7 +811,6 @@ textarea,
     overflow: hidden;
     float: right;
     padding-right: 78px;
-    height: 65px;
 }
 
 .pf-topbar-nav-item {
@@ -885,7 +870,9 @@ textarea,
 .pf-main-container {
     background-color: #E6ECF0;
     width: 100%;
-    overflow: hidden;
+    margin-top: 10px;
+    padding-top: 2px;
+    overflow:hidden;
 }
 
 .pf-topbar-nav-avatar {
@@ -920,6 +907,7 @@ textarea,
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    margin-top: 10px;
     max-width: 1200px;
 }
 
@@ -982,7 +970,7 @@ textarea,
 }
 
 .pf-main-container-body-left-intro-body p {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .pf-body-location {
@@ -990,25 +978,25 @@ textarea,
 }
 
 #pf-body-when-text {
-    color: #14171A;
+	color: #14171A;
 }
 
 .pf-page {
-    margin: 0;
+	margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
 
 .pf-page .thirdcol-content {
-    position: relative;
+	position: relative;
     top: 0px;
     margin-top: 8px;
     width: 315px;
 }
 
 .pf-main-container-body-right .feed-content {
-    width: 500px;
+	width: 500px;
     float: left;
     top: 0px;
     left: 300px;
@@ -1016,33 +1004,24 @@ textarea,
 }
 
 .pf-main-container-body-right .card-columns {
-    width: 810px;
+	width: 810px;
     float: left;
     top: 0px;
     left: 300px;
     position: inherit;
 }
 
-.pf-body-right-third {
-    margin: 0 auto;
+.pf-body-right-third{
+	margin: 0 auto;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
 }
 
 .pf-body-right-third .thirdcol-content {
-    position: inherit;
+	position: inherit;
     top: 0px;
     float: left;
     margin-top: 0px;
     width: 315px;
-}
-
-.pf-topbar-container-wrapper {
-    height: 60px;
-    background-color: #FFFFFF;
-}
-
-.pf-main-container-body-right-people {
-	width: 500px;
 }
